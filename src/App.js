@@ -1,11 +1,16 @@
-import React from "react";
-import Login from "./login";
-// import Acip from "./routes";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Padang from './Kota/kotaPadang/Padang';
+import About from './About/About';	
 
-export default function App() {
+function App() {
   return (
-    <div>
-      <Acip />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/kota/Padang" element={<Padang />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </Router>
   );
 }
+
+export default App;
