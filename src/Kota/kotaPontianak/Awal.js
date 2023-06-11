@@ -4,14 +4,14 @@ import "bootstrap/dist/css/bootstrap.css";
 import { Parallax } from "react-parallax";
 
 //images
-import MapMakassar from "./makassar-img/makassar.jpg";
-import car1 from "./makassar-img/makassar-car1.jpg";
-import car2 from "./makassar-img/makassar-car2.jpg";
-import car3 from "./makassar-img/makassar-car3.jpg";
-import car4 from "./makassar-img/makassar-car4.jpg";
-import car5 from "./makassar-img/makassar-car5.jpg";
-import car6 from "./makassar-img/makassar-car6.jpg";
-import car7 from "./makassar-img/makassar-car7.jpg";
+import MapPontianak from "./pontianak-img/pontianak.jpg";
+import car1 from "./pontianak-img/pontianak-car-1.jpg";
+import car2 from "./pontianak-img/pontianak-car-2.jpeg";
+import car3 from "./pontianak-img/pontianak-car-3.jpeg";
+import car4 from "./pontianak-img/pontianak-car-4.jpg";
+import car5 from "./pontianak-img/pontianak-car-5.jpeg";
+import car6 from "./pontianak-img/pontianak-car-6.jpg";
+import car7 from "./pontianak-img/pontianak-car-7.jpeg";
 import background from "../shared-img/topbg.jpeg";
 
 const Awal = () => {
@@ -28,22 +28,22 @@ const Awal = () => {
                     backgroundColor: "gray"
                   }}
                 >
-                  <h1>MAKASSAR</h1>
+                  <h1>PONTIANAK</h1>
                 </div>
               </div>
             </div>
             <div className="row justify-content-center">
               <div className="col-md-4 img-prov justify-content-center">
-                <img src={MapMakassar} alt="jakarta" />
+                <img src={MapPontianak} alt="jakarta" />
               </div>
               <div className="col-md-7 mt-3 desc-provinsi">
                 <h3>Fun Fact:</h3>
                 <p>
-                Hari Jadi Makassar ditetapkan pada tanggal 9 November 1607 bertepatan di hari Jumat. 
-                Asal usul ditetapkan pada hari tersebut dikarenakan Raja Gowa ke-14 yaitu Mangngarangi 
-                Daeng Manrabia memeluk agama Islam, lalu disusul Raja Tallo yaitu Mangkubumi I-Mallingkaang 
-                Daeng Manyonri Kareng Katangka. Setelah kedua raja ini masuk Islam, pada tanggal 9 November 
-                1607 digelar shalat Jumat pertama di Masjid Tallo.
+                Nama Pontianak memiliki beberapa legenda yang beredar di masyarakat. Salah satu legenda 
+                mengatakan bahwa nama Pontianak berasal dari Ayunan Anak di sekitar Masjid Jami. Legenda 
+                lain mengatakan bahwa Pontianak berasal dari kata "pohon punti" yang berarti pohon-pohon 
+                tinggi. Ada juga cerita mengenai kata "Buntinganak" yang memiliki kaitan dengan asal usul 
+                nama Pontianak.
                 </p>
               </div>
             </div>

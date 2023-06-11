@@ -5,6 +5,10 @@ import Medan from './Kota/kotaMedan/Medan';
 import Jayapura from './Kota/kotaJayapura/Jayapura';
 import Denpasar from './Kota/kotaDenpasar/Denpasar';
 import Makassar from './Kota/kotaMakassar/Makassar';
+import Manado from './Kota/kotaManado/Manado';
+import Pontianak from './Kota/kotaPontianak/Pontianak';
+import Samarinda from './Kota/kotaSamarinda/Samarinda';
+import Sorong from './Kota/kotaSorong/Sorong';
 import About from './About/About';	
 
 function App() {
@@ -17,6 +21,10 @@ function App() {
         <Route path="/kota/Jayapura" element={<Jayapura />} />
         <Route path="/kota/Denpasar" element={<Denpasar />} />
         <Route path="/kota/Makassar" element={<Makassar />} />
+        <Route path="/kota/Manado" element={<Manado />} />
+        <Route path="/kota/Pontianak" element={<Pontianak />} />
+        <Route path="/kota/Samarinda" element={<Samarinda />} />
+        <Route path="/kota/Sorong" element={<Sorong />} />
         <Route path="/about" element={<About />} />
       </Routes>
     </Router>

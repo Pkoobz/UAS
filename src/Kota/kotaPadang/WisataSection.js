@@ -55,7 +55,7 @@ const WisataSection = () => {
           >
             <div className="icon">
               <i className="fa-solid fa-heart fa-xl"></i>
-              <p>Sirasah</p>
+              <p>Sarasah</p>
             </div>
             <div className="centerForm">
               <p>

@@ -4,14 +4,14 @@ import "bootstrap/dist/css/bootstrap.css";
 import { Parallax } from "react-parallax";
 
 //images
-import MapMakassar from "./makassar-img/makassar.jpg";
-import car1 from "./makassar-img/makassar-car1.jpg";
-import car2 from "./makassar-img/makassar-car2.jpg";
-import car3 from "./makassar-img/makassar-car3.jpg";
-import car4 from "./makassar-img/makassar-car4.jpg";
-import car5 from "./makassar-img/makassar-car5.jpg";
-import car6 from "./makassar-img/makassar-car6.jpg";
-import car7 from "./makassar-img/makassar-car7.jpg";
+import MapSamarinda from "./samarinda-img/samarinda.jpeg";
+import car1 from "./samarinda-img/samarinda-car-1.jpeg";
+import car2 from "./samarinda-img/samarinda-car-2.jpeg";
+import car3 from "./samarinda-img/samarinda-car-3.jpeg";
+import car4 from "./samarinda-img/samarinda-car-4.jpeg";
+import car5 from "./samarinda-img/samarinda-car-5.jpeg";
+import car6 from "./samarinda-img/samarinda-car-6.jpeg";
+import car7 from "./samarinda-img/samarinda-car-7.jpeg";
 import background from "../shared-img/topbg.jpeg";
 
 const Awal = () => {
@@ -28,22 +28,21 @@ const Awal = () => {
                     backgroundColor: "gray"
                   }}
                 >
-                  <h1>MAKASSAR</h1>
+                  <h1>SAMARINDA</h1>
                 </div>
               </div>
             </div>
             <div className="row justify-content-center">
               <div className="col-md-4 img-prov justify-content-center">
-                <img src={MapMakassar} alt="jakarta" />
+                <img src={MapSamarinda} alt="jakarta" />
               </div>
               <div className="col-md-7 mt-3 desc-provinsi">
                 <h3>Fun Fact:</h3>
                 <p>
-                Hari Jadi Makassar ditetapkan pada tanggal 9 November 1607 bertepatan di hari Jumat. 
-                Asal usul ditetapkan pada hari tersebut dikarenakan Raja Gowa ke-14 yaitu Mangngarangi 
-                Daeng Manrabia memeluk agama Islam, lalu disusul Raja Tallo yaitu Mangkubumi I-Mallingkaang 
-                Daeng Manyonri Kareng Katangka. Setelah kedua raja ini masuk Islam, pada tanggal 9 November 
-                1607 digelar shalat Jumat pertama di Masjid Tallo.
+                Samarinda merupakan ibu kota dari provinsi Kalimantan Timur, Indonesia serta kota 
+                dengan penduduk terbesar di seluruh Pulau Kalimantan. Samarinda juga memiliki lambang 
+                kota berupa dua mamalia air yaitu pesut yang menghadap satu sama lain. Simbol tersebut 
+                melambangkan kerja sama atau koordinasi yang baik. 
                 </p>
               </div>
             </div>

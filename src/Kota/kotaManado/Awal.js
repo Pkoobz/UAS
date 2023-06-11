@@ -4,14 +4,14 @@ import "bootstrap/dist/css/bootstrap.css";
 import { Parallax } from "react-parallax";
 
 //images
-import MapMakassar from "./makassar-img/makassar.jpg";
-import car1 from "./makassar-img/makassar-car1.jpg";
-import car2 from "./makassar-img/makassar-car2.jpg";
-import car3 from "./makassar-img/makassar-car3.jpg";
-import car4 from "./makassar-img/makassar-car4.jpg";
-import car5 from "./makassar-img/makassar-car5.jpg";
-import car6 from "./makassar-img/makassar-car6.jpg";
-import car7 from "./makassar-img/makassar-car7.jpg";
+import MapManado from "./manado-img/manado.jpeg";
+import car1 from "./manado-img/manado-car1.avif";
+import car2 from "./manado-img/manado-car2.jpg";
+import car3 from "./manado-img/manado-car3.png";
+import car4 from "./manado-img/manado-car4.jpg";
+import car5 from "./manado-img/manado-car5.jpg";
+import car6 from "./manado-img/manado-car6.png";
+import car7 from "./manado-img/manado-car7.jpeg";
 import background from "../shared-img/topbg.jpeg";
 
 const Awal = () => {
@@ -28,22 +28,22 @@ const Awal = () => {
                     backgroundColor: "gray"
                   }}
                 >
-                  <h1>MAKASSAR</h1>
+                  <h1>MANADO</h1>
                 </div>
               </div>
             </div>
             <div className="row justify-content-center">
               <div className="col-md-4 img-prov justify-content-center">
-                <img src={MapMakassar} alt="jakarta" />
+                <img src={MapManado} alt="jakarta" />
               </div>
               <div className="col-md-7 mt-3 desc-provinsi">
                 <h3>Fun Fact:</h3>
                 <p>
-                Hari Jadi Makassar ditetapkan pada tanggal 9 November 1607 bertepatan di hari Jumat. 
-                Asal usul ditetapkan pada hari tersebut dikarenakan Raja Gowa ke-14 yaitu Mangngarangi 
-                Daeng Manrabia memeluk agama Islam, lalu disusul Raja Tallo yaitu Mangkubumi I-Mallingkaang 
-                Daeng Manyonri Kareng Katangka. Setelah kedua raja ini masuk Islam, pada tanggal 9 November 
-                1607 digelar shalat Jumat pertama di Masjid Tallo.
+                Semboyan Manado adalah Si Tou Timou Tumou Tou, yang berarti cara hidup 
+                seorang manusia yang harus sesuai dengan aturan dan perilaku yang baik. 
+                Jika kita melihat semboyan orang Manado, Torang Samua Basudara, yang berarti 
+                Bhinneka Tunggal Ika, seperti yang dimiliki oleh bangsa kita. Warga Manado 
+                menunjukkan hal ini dengan saling menyapa saat berpapasan dan menjadi akrab satu sama lain.
                 </p>
               </div>
             </div>
