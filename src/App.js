@@ -29,7 +29,11 @@ function App() {
         <Route path="/kota/Sorong" element={<Sorong />} />
         <Route path="/about" element={<About />} />
         <Route path="/Map" element={<Map />} />
+<<<<<<< HEAD
         {/* <Route path="/Loadingscreen" element={<Loading />} /> */}
+=======
+        <Route path="/" element={<Login />} />
+>>>>>>> 61c4896 (login)
       </Routes>
     </Router>
   );
