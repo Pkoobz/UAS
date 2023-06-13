@@ -1,0 +1,235 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+
+.navbar {
+    backdrop-filter: blur(6px); /* Adjust the blur value as needed */
+    background-color: rgba(0, 0, 0, 0.2); /* Adjust the background color and transparency as needed */
+  }
+
+body {
+    background-image: url('../img/login.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.page {
+    display: flex;
+    min-height: 100vh;
+  
+}
+
+.page-1{
+    justify-content: start;
+    position: relative;
+    max-width: 400px;
+    min-height: 100vh;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(55px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+
+@media only screen and (max-width:425px) { 
+   
+    .page-1{
+    justify-content: start;
+    max-width: 80px;
+    min-height: 50px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(55px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+    }
+
+    h1 {
+        font-size: 1rem;
+        color: #fff;
+        text-align: center;
+    }
+    
+    .inputbox {
+        position: relative;
+        margin: 15px 0;
+        max-width: 210px;
+        border-bottom: 2px solid #fff;
+    }
+    
+    .inputbox label {
+        position: absolute;
+        top: 50%;
+        left: 3px;
+        transform: translateY(-50%);
+        color: #fff;
+        font-size: 1rem;
+        pointer-events: none;
+        transition: all 0.5s ease-in-out;
+    }
+    
+    input:focus ~ label, 
+    input:valid ~ label {
+        top: -2px;
+    }
+    
+    .inputbox input {
+        width: 100%;
+        height: 40px;
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        padding: 0 35px 0 5px;
+        color: #fff;
+    }
+    
+    .inputbox ion-icon {
+        position: absolute;
+        right: 4px;
+        color: #fff;
+        font-size: 1.2rem;
+        top: 10px;
+    }
+    
+    button {
+        width: 100%;
+        height: 20px;
+        border-radius: 20px;
+        background-color: #fff;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    
+    .register {
+        font-size: 0.9rem;
+        color: #fff;
+        text-align: center;
+        margin: 20px 0 10px;
+    }
+    
+    .register p a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 300;
+    }
+    
+    .register p a:hover {
+        text-decoration: underline;
+    }
+}
+
+.page-2{
+    justify-content: end;
+    text-align: right;
+    margin-top: 80px;
+    margin-left: 180px;
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    border: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(40px);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #fff;
+    text-align: end;
+    margin-right: 20px;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    max-width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: all 0.5s ease-in-out;
+}
+
+input:focus ~ label, 
+input:valid ~ label {
+    top: -5px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2rem;
+    top: 20px;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+
+.register {
+    font-size: 0.9rem;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gambar Berubah Secara Otomatis</title>
+  <script>
+    var imageGroups = [
+      [
+        'denpasar1.jpg',
+        'denpasar2.jpg',
+        'denpasar3.jpg'
+      ],
+      [
+        'padang1.jpg',
+        'padang2.jpg',
+        'padang3.jpg'
+      ]
+    ];
+
+    var currentImage1 = 0;
+    var currentImage2 = 0;
+
+    function changeImage() {
+      var img1 = document.getElementById('group1Image');
+      img1.src = imageGroups[0][currentImage1];
+      currentImage1 = (currentImage1 + 1) % imageGroups[0].length;
+
+      var img2 = document.getElementById('group2Image');
+      img2.src = imageGroups[1][currentImage2];
+      currentImage2 = (currentImage2 + 1) % imageGroups[1].length;
+
+      setTimeout(changeImage, 3000);
+    }
+
+    window.onload = function() {
+      changeImage();
+    };
+  </script>
+</head>
+<body>
+  <h2>Grup Pertama</h2>
+  <img id="group1Image" src="denpasar1.jpg" alt="Gambar Grup Pertama" width="400" height="300">
+
+  <h2>Grup Kedua</h2>
+  <img id="group2Image" src="padang1.jpg" alt="Gambar Grup Kedua" width="400" height="300">
+</body>
+</html>
