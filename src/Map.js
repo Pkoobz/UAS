@@ -36,7 +36,7 @@ export default function Map() {
     <div style={{ backgroundColor: "rgb(46, 43, 43)" }}>
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
         <div className="container-fluid">
-          <a className="navbar-brand">Travelindo</a>
+          <a className="navbar-brand" style={{color: "white" }} >Travelindo</a>
           <button
             className="navbar-toggler"
             type="button"
