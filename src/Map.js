@@ -1,6 +1,6 @@
 import React from "react";
 import "./map.css";
-import { useLocation, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import PadangImage from "./img/Padang.jpg";
@@ -15,7 +15,7 @@ import JayapuraImage from "./img/Jayapura.jpg";
 import SorongImage from "./img/Sorong.jpg";
 import MapImage from "./img/Indo_map.png";
 
-export default function Map() {
+export default function About() {
   const currentHour = new Date().getHours();
   let greeting;
   if (currentHour >= 12 && currentHour < 18) {
@@ -28,9 +28,6 @@ export default function Map() {
   ) {
     greeting = "Selamat malam";
   }
-  
-  const location = useLocation();
-  const username = location?.state?.username || "Unknown User";
 
   return (
     <div style={{ backgroundColor: "rgb(46, 43, 43)" }}>
@@ -72,7 +69,7 @@ export default function Map() {
         </div>
       </nav>
       <h1 style={{ color: "white" }}>
-        Halo {greeting} {username}
+        Halo {greeting} {localStorage.getItem("username")}
       </h1>
       <div className="container">
         <div className="map-container">
@@ -162,7 +159,7 @@ export default function Map() {
                     ini dan nikmati keindahan alam serta kuliner yang khas.
                     <NavLink
                       exact
-                      to="/Padang"
+                      to="/kota/Padang"
                       activeClassName="active"
                       className="nav-link"
                     >
@@ -194,7 +191,7 @@ export default function Map() {
                     dijelajahi dan dinikmati.
                     <NavLink
                       exact
-                      to="/Medan"
+                      to="/kota/Medan"
                       activeClassName="active"
                       className="nav-link"
                     >
@@ -223,7 +220,7 @@ export default function Map() {
                     budaya.
                     <NavLink
                       exact
-                      to="/Pontianak"
+                      to="/kota/Pontianak"
                       activeClassName="active"
                       className="nav-link"
                     >
@@ -250,7 +247,7 @@ export default function Map() {
                     dan jelajahi kekayaan alamnya.
                     <NavLink
                       exact
-                      to="/Samarinda"
+                      to="/kota/Samarinda"
                       activeClassName="active"
                       className="nav-link"
                     >
@@ -279,7 +276,7 @@ export default function Map() {
                     alam Sulawesi Selatan.
                     <NavLink
                       exact
-                      to="/Makassar"
+                      to="/kota/Makassar"
                       activeClassName="active"
                       className="nav-link"
                     >
@@ -308,7 +305,7 @@ export default function Map() {
                     perjalanan Anda.
                     <NavLink
                       exact
-                      to="/Manado"
+                      to="/kota/Manado"
                       activeClassName="active"
                       className="nav-link"
                     >
@@ -340,7 +337,7 @@ export default function Map() {
                     dinikmati.
                     <NavLink
                       exact
-                      to="/Jakarta"
+                      to="/kota/Jakarta"
                       activeClassName="active"
                       className="nav-link"
                     >
@@ -368,7 +365,7 @@ export default function Map() {
                     pantai yang indah di Denpasar.
                     <NavLink
                       exact
-                      to="/Denpasar"
+                      to="/kota/Denpasar"
                       activeClassName="active"
                       className="nav-link"
                     >
@@ -398,7 +395,7 @@ export default function Map() {
                     menjelajahi kekayaan alam Papua yang eksotis.
                     <NavLink
                       exact
-                      to="/Jayapura"
+                      to="/kota/Jayapura"
                       activeClassName="active"
                       className="nav-link"
                     >
@@ -430,7 +427,7 @@ export default function Map() {
                     ternilai di Papua Barat.
                     <NavLink
                       exact
-                      to="/Sorong"
+                      to="/kota/Sorong"
                       activeClassName="active"
                       className="nav-link"
                     >
@@ -470,4 +467,3 @@ export default function Map() {
     </div>
   );
 }
-

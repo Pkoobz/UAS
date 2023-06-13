@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg fixed-top navbar-dark shadow-5-strong navbar-blur">
       <div className="container-fluid">
-        <a className="navbar-brand" href="../../Homescreen/homescreen.html">
+        <a className="navbar-brand" href="../Map">
           TravelIndo
         </a>
         <button
