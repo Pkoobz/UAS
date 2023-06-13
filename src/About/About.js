@@ -56,7 +56,6 @@ function About() {
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
             position: "fixed",
             padding: "10%",
             display: "grid",
