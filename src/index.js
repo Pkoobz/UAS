@@ -26,16 +26,16 @@ function Index() {
       <Route index path="/" element={<App />} />
       <Route path="/Map" element={<Map />} />
       <Route path="/About" element={<About />} />
-      <Route path="/Padang" element={<Padang />} />
-      <Route path="/Medan" element={<Medan />} />
-      <Route path="/Pontianak" element={<Pontianak />} />
-      <Route path="/Samarinda" element={<Samarinda />} />
-      <Route path="/Makassar" element={<Makassar />} />
-      <Route path="/Manado" element={<Manado />} />
-      <Route path="/Jakarta" element={<Jakarta />} />
-      <Route path="/Denpasar" element={<Denpasar />} />
-      <Route path="/Jayapura" element={<Jayapura />} />
-      <Route path="/Sorong" element={<Sorong />} />
+      <Route path="Kota/Padang" element={<Padang />} />
+      <Route path="Kota/Medan" element={<Medan />} />
+      <Route path="Kota/Pontianak" element={<Pontianak />} />
+      <Route path="Kota/Samarinda" element={<Samarinda />} />
+      <Route path="Kota/Makassar" element={<Makassar />} />
+      <Route path="Kota/Manado" element={<Manado />} />
+      <Route path="Kota/Jakarta" element={<Jakarta />} />
+      <Route path="Kota/Denpasar" element={<Denpasar />} />
+      <Route path="Kota/Jayapura" element={<Jayapura />} />
+      <Route path="Kota/Sorong" element={<Sorong />} />
     </Routes>
   );
 }

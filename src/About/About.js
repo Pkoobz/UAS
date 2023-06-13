@@ -1,5 +1,4 @@
 import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap/dist/js/bootstrap.bundle";
 import { NavLink } from "react-router-dom";
 import React from "react";
 import "./about.css";
@@ -108,7 +107,11 @@ function About() {
                   backgroundSize: "cover"
                 }}
               >
-                <div className="col-md-6 text-center mb-3 mb-md-0"></div>
+                <div className="col-md-6 text-center mb-3 mb-md-0">
+                  <h5 className="footer-content-h5">Indonesia Travel Guide Map</h5>
+                  <p className="footer-content">Created by Group 9</p>
+                  <p className="footer-content-c">&#169; 2023</p>
+                </div>
                 <div className="col-md-6 d-flex justify-content-center">
                   <a href="https://www.umn.ac.id/">
                     <img src={LogoImage} className="img-fluid" alt="Logo" />
