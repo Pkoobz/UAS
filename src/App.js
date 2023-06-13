@@ -9,7 +9,8 @@ import Manado from './Kota/kotaManado/Manado';
 import Pontianak from './Kota/kotaPontianak/Pontianak';
 import Samarinda from './Kota/kotaSamarinda/Samarinda';
 import Sorong from './Kota/kotaSorong/Sorong';
-import About from './About/About';	
+import About from './About/About';
+import Map from "./Map";	
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/kota/Samarinda" element={<Samarinda />} />
         <Route path="/kota/Sorong" element={<Sorong />} />
         <Route path="/about" element={<About />} />
+        <Route path="/Map" element={<Map />} />
       </Routes>
     </Router>
   );

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import PadangImage from "./img/Padang.jpg";
-import MedanImage from "./img/Medan.jpg";
+import MedanImage from "./img/Denpasar.jpeg";
 import PontianakImage from "./img/Pontianak.jpg";
 import SamarindaImage from "./img/Samarinda.jpg";
 import MakassarImage from "./img/Makassar.jpg";
