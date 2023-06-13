@@ -7,7 +7,7 @@ import { Parallax } from "react-parallax";
 import kuliner1 from "./jayapura-img/jayapura/kuliner/keladi-tumbuk.jpg";
 import kuliner2 from "./jayapura-img/jayapura/kuliner/ikkan-bungkus.jpg";
 import kuliner3 from "./jayapura-img/jayapura/kuliner/martabak-sagu.jpg";
-import bg from "../shared-img/kuliner.png";
+import bg from "../shared-img/Kuliner_UAS.jpg";
 
 const Kuliner = () => {
   return (

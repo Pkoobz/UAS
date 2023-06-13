@@ -4,7 +4,7 @@ import { Parallax } from "react-parallax";
 import "bootstrap/dist/css/bootstrap.css";
 
 //images
-import Road from "../shared-img/road.webp";
+import Road from "../shared-img/Wisata_UAS.jpg";
 import wisata1 from "./pontianak-img/wisata/danau-biru-singkawang.jpg";
 import wisata2 from "./pontianak-img/wisata/museum-kalimantan-barat.jpg";
 import wisata3 from "./pontianak-img/wisata/pantai-pasir-panjang.jpg";

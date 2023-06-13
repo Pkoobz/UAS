@@ -4,7 +4,7 @@ import { Parallax } from "react-parallax";
 import "bootstrap/dist/css/bootstrap.css";
 
 //images
-import Road from "../shared-img/road.webp";
+import Road from "../shared-img/Wisata_UAS.jpg";
 import wisata1 from "./sorong-img/wisata/Danau-Ayamaru.jpeg";
 import wisata2 from "./sorong-img/wisata/Air_Terjun_Sasnek.jpeg";
 import wisata3 from "./sorong-img/wisata/Pulau-Buaya.jpeg";

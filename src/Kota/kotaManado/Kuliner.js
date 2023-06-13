@@ -7,7 +7,7 @@ import { Parallax } from "react-parallax";
 import kuliner1 from "./manado-img/kuliner/ayam-woku-belangga.jpeg";
 import kuliner2 from "./manado-img/kuliner/ikan-kuah-asam.jpg";
 import kuliner3 from "./manado-img/kuliner/mie-cakalang.jpg";
-import bg from "../shared-img/kuliner.png";
+import bg from "../shared-img/Kuliner_UAS.jpg";
 
 const Kuliner = () => {
   return (

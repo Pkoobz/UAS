@@ -4,7 +4,7 @@ import { Parallax } from "react-parallax";
 import "bootstrap/dist/css/bootstrap.css";
 
 //images
-import Road from "../shared-img/road.webp";
+import Road from "../shared-img/Wisata_UAS.jpg";
 import wisata1 from "./medan-img/wisata/wisata-bukit-holbung-samosir.jpg";
 import wisata2 from "./medan-img/wisata/wisata-danau-toba.jpg";
 import wisata3 from "./medan-img/wisata/wisata-istana-maimun.jpg";

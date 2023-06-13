@@ -4,7 +4,7 @@ import { Parallax } from "react-parallax";
 import "bootstrap/dist/css/bootstrap.css";
 
 //images
-import Road from "../shared-img/road.webp";
+import Road from "../shared-img/Wisata_UAS.jpg";
 import wisata1 from "./samarinda-img/wisata/Pulau-Kumala-Tenggarong.jpeg";
 import wisata2 from "./samarinda-img/wisata/Samarinda-Islamic-Center.jpeg";
 import wisata3 from "./samarinda-img/wisata/Wisata-Air-Terjun-Pinang-Seribu.jpeg";
