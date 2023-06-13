@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import React, { useState } from "react";
+import { NavLink, useNavigate } from "react-router-dom";
 import "./login.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import UsernameContext from "./UsernameContext";
@@ -13,15 +13,17 @@ export default function App() {
     if (!username) {
       setErrorMessage("Maaf, tidak ada username");
     } else {
-      // Lakukan logika lainnya jika input username telah diisi
       console.log("Username:", username);
+      navigate("/map", { state: { username } });
     }
   };
 
   const handleUsernameChange = (e) => {
     setUsername(e.target.value);
-    setErrorMessage(""); // Menghapus pesan error saat pengguna mulai mengetik
+    setErrorMessage("");
   };
+
+  const navigate = useNavigate();
 
   return (
     <UsernameContext.Provider value={{ username, setUsername }}>
@@ -76,12 +78,9 @@ export default function App() {
                         <label htmlFor="">Username</label>
                       </div>
                       {errorMessage && <p>{errorMessage}</p>}
-                      <button>
+                      <button type="submit">
                         <NavLink
-                          to={{
-                            pathname: "/map",
-                            state: { username: usernameContext.username }
-                          }}
+                          to="/map"
                           className={({ isActive }) =>
                             isActive ? "active" : ""
                           }
