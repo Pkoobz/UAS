@@ -162,7 +162,7 @@ export default function Map() {
                     ini dan nikmati keindahan alam serta kuliner yang khas.
                     <NavLink
                       exact
-                      to="/Padang"
+                      to="/kota/Padang"
                       activeClassName="active"
                       className="nav-link"
                     >
@@ -194,7 +194,7 @@ export default function Map() {
                     dijelajahi dan dinikmati.
                     <NavLink
                       exact
-                      to="/Medan"
+                      to="/kota/Medan"
                       activeClassName="active"
                       className="nav-link"
                     >
@@ -223,7 +223,7 @@ export default function Map() {
                     budaya.
                     <NavLink
                       exact
-                      to="/Pontianak"
+                      to="/kota/Pontianak"
                       activeClassName="active"
                       className="nav-link"
                     >
@@ -250,7 +250,7 @@ export default function Map() {
                     dan jelajahi kekayaan alamnya.
                     <NavLink
                       exact
-                      to="/Samarinda"
+                      to="/kota/Samarinda"
                       activeClassName="active"
                       className="nav-link"
                     >
@@ -279,7 +279,7 @@ export default function Map() {
                     alam Sulawesi Selatan.
                     <NavLink
                       exact
-                      to="/Makassar"
+                      to="/kota/Makassar"
                       activeClassName="active"
                       className="nav-link"
                     >
@@ -308,7 +308,7 @@ export default function Map() {
                     perjalanan Anda.
                     <NavLink
                       exact
-                      to="/Manado"
+                      to="/kota/Manado"
                       activeClassName="active"
                       className="nav-link"
                     >
@@ -340,7 +340,7 @@ export default function Map() {
                     dinikmati.
                     <NavLink
                       exact
-                      to="/Jakarta"
+                      to="/kota/Jakarta"
                       activeClassName="active"
                       className="nav-link"
                     >
@@ -368,7 +368,7 @@ export default function Map() {
                     pantai yang indah di Denpasar.
                     <NavLink
                       exact
-                      to="/Denpasar"
+                      to="/kota/Denpasar"
                       activeClassName="active"
                       className="nav-link"
                     >
@@ -398,7 +398,7 @@ export default function Map() {
                     menjelajahi kekayaan alam Papua yang eksotis.
                     <NavLink
                       exact
-                      to="/Jayapura"
+                      to="/kota/Jayapura"
                       activeClassName="active"
                       className="nav-link"
                     >
@@ -430,7 +430,7 @@ export default function Map() {
                     ternilai di Papua Barat.
                     <NavLink
                       exact
-                      to="/Sorong"
+                      to="/kota/Sorong"
                       activeClassName="active"
                       className="nav-link"
                     >
