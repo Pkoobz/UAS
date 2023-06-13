@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles.css";
 import "bootstrap/dist/css/bootstrap.css";
 import { NavLink } from "react-router-dom";
-
+import Weather from "./Weather";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg fixed-top navbar-dark shadow-5-strong navbar-blur">
@@ -49,6 +49,7 @@ function Navbar() {
               </NavLink>
             </li>
           </ul>
+          <Weather />
         </div>
       </div>
     </nav>
