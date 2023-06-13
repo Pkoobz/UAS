@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../Navbar";
+import Navbar from "./Navbar";
 import Awal from "./Awal";
 import Wisata from "./Wisata";
 import Kuliner from "./Kuliner";
@@ -11,7 +11,7 @@ const Medan = () => {
     <div className="container-fluid p-0 mg-0">
       <Navbar />
       <Awal />
-      <Wisata/>
+      <Wisata />
       <Kuliner />
       <Footer />
     </div>

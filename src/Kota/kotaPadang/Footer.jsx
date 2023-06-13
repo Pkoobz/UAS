@@ -2,7 +2,6 @@ import React from "react";
 import "../../styles.css";
 import "bootstrap/dist/css/bootstrap.css";
 
-//images
 import Logo from "../shared-img/logo-akreditasi.png";
 import FooterImg from "../shared-img/footer.jpg";
 
