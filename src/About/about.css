@@ -7,6 +7,7 @@
   flex-wrap: wrap;
   padding-bottom: 100px;
   margin-left: -25%;
+  margin-top: -50px;
 }
 
 .card {
@@ -33,17 +34,26 @@
   filter: none;
 }
 
+@media (max-width: 1326px) {
+  .container-about {
+    margin-top: 10px;
+  }
+}
+
 @media (max-width: 868px) {
   .container-about {
     width: 90%;
     margin-left: 5%;
+    margin-top: 25px;
   }
 }
 @media (max-width: 600px) {
   .container-about {
-    width: 80%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 25px;
   }
+
 }
 
 .navbar {
@@ -59,4 +69,11 @@
   left: 0;
   color: rgb(255, 255, 255);
 }
-  
+
+.footer-content-h5 {
+  margin-top: 20px;
+}
+
+.footer-content-c {
+  margin-top: -10px;
+}
