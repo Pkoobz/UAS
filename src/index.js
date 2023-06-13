@@ -10,9 +10,9 @@ import Medan from "./Kota/kotaMedan/Medan";
 import Pontianak from "./Kota/kotaPontianak/Pontianak";
 import Samarinda from "./Kota/kotaSamarinda/Samarinda";
 import Makassar from "./Kota/kotaMakassar/Makassar";
-import Manado from "./Kota/kotaManado/v";
+import Manado from "./Kota/kotaManado/Manado";
 import Jakarta from "./Kota/kotaJakarta/Jakarta";
-import Denpasar from "./Kota/kotaDenpasar/v";
+import Denpasar from "./Kota/kotaDenpasar/Denpasar";
 import Jayapura from "./Kota/kotaJayapura/Jayapura";
 import Sorong from "./Kota/kotaSorong/Sorong";
 
