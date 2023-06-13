@@ -166,7 +166,7 @@ export default function Map() {
                       activeClassName="active"
                       className="nav-link"
                     >
-                      See more
+                      <p style={{ color: "blue" }}>See more</p>
                     </NavLink>
                   </p>
                 </div>
@@ -198,7 +198,7 @@ export default function Map() {
                       activeClassName="active"
                       className="nav-link"
                     >
-                      See more
+                      <p style={{ color: "blue" }}>See more</p>
                     </NavLink>
                   </p>
                 </div>
@@ -227,7 +227,7 @@ export default function Map() {
                       activeClassName="active"
                       className="nav-link"
                     >
-                      See more
+                      <p style={{ color: "blue" }}>See more</p>
                     </NavLink>
                   </p>
                 </div>
@@ -254,7 +254,7 @@ export default function Map() {
                       activeClassName="active"
                       className="nav-link"
                     >
-                      See more
+                      <p style={{ color: "blue" }}>See more</p>
                     </NavLink>
                   </p>
                 </div>
@@ -283,7 +283,7 @@ export default function Map() {
                       activeClassName="active"
                       className="nav-link"
                     >
-                      See more
+                      <p style={{ color: "blue" }}>See more</p>
                     </NavLink>
                   </p>
                 </div>
@@ -312,7 +312,7 @@ export default function Map() {
                       activeClassName="active"
                       className="nav-link"
                     >
-                      See more
+                      <p style={{ color: "blue" }}>See more</p>
                     </NavLink>
                   </p>
                 </div>
@@ -344,7 +344,7 @@ export default function Map() {
                       activeClassName="active"
                       className="nav-link"
                     >
-                      See more
+                      <p style={{ color: "blue" }}>See more</p>
                     </NavLink>
                   </p>
                 </div>
@@ -372,7 +372,7 @@ export default function Map() {
                       activeClassName="active"
                       className="nav-link"
                     >
-                      See more
+                      <p style={{ color: "blue" }}>See more</p>
                     </NavLink>
                   </p>
                 </div>
@@ -402,7 +402,7 @@ export default function Map() {
                       activeClassName="active"
                       className="nav-link"
                     >
-                      See more
+                      <p style={{ color: "blue" }}>See more</p>
                     </NavLink>
                   </p>
                 </div>
@@ -434,7 +434,7 @@ export default function Map() {
                       activeClassName="active"
                       className="nav-link"
                     >
-                      See more
+                      <p style={{ color: "blue" }}>See more</p>
                     </NavLink>
                   </p>
                 </div>
