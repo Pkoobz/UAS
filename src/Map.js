@@ -30,8 +30,8 @@ export default function Map() {
   }
   
   const location = useLocation();
-  const username = location?.state?.username || "Unknown User";
-
+  const username = location?.state?.username;
+  
   return (
     <div style={{ backgroundColor: "rgb(46, 43, 43)" }}>
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
