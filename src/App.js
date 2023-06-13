@@ -29,7 +29,7 @@ function App() {
         <Route path="/kota/Sorong" element={<Sorong />} />
         <Route path="/about" element={<About />} />
         <Route path="/Map" element={<Map />} />
-        <Route path="/" element={<Login />} />
+        {/* <Route path="/Loadingscreen" element={<Loading />} /> */}
       </Routes>
     </Router>
   );

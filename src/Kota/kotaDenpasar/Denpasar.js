@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Navbar7";
+import Navbar from "../Navbar";
 import Awal from "./Awal";
 import Wisata from "./Wisata";
 import Kuliner from "./Kuliner";

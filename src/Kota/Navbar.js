@@ -1,7 +1,6 @@
 import React from "react";
-import "../../styles.css";
+import "../styles.css";
 import "bootstrap/dist/css/bootstrap.css";
-import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -37,16 +36,6 @@ function Navbar() {
               <a className="nav-link" href="#kuliner">
                 Kuliner
               </a>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                    exact
-                    to="/Map"
-                    activeClassName="active"
-                    className="nav-link"
-                  >
-                    Back
-              </NavLink>
             </li>
           </ul>
         </div>
