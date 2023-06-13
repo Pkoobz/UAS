@@ -1,10 +1,10 @@
 import React from "react";
 import "./map.css";
-import { NavLink } from "react-router-dom";
+import { useLocation, NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import PadangImage from "./img/Padang.jpg";
-import MedanImage from "./img/Denpasar.jpeg";
+import MedanImage from "./img/Medan.jpg";
 import PontianakImage from "./img/Pontianak.jpg";
 import SamarindaImage from "./img/Samarinda.jpg";
 import MakassarImage from "./img/Makassar.jpg";
@@ -15,7 +15,7 @@ import JayapuraImage from "./img/Jayapura.jpg";
 import SorongImage from "./img/Sorong.jpg";
 import MapImage from "./img/Indo_map.png";
 
-export default function About() {
+export default function Map() {
   const currentHour = new Date().getHours();
   let greeting;
   if (currentHour >= 12 && currentHour < 18) {
@@ -28,6 +28,9 @@ export default function About() {
   ) {
     greeting = "Selamat malam";
   }
+  
+  const location = useLocation();
+  const username = location?.state?.username || "Unknown User";
 
   return (
     <div style={{ backgroundColor: "rgb(46, 43, 43)" }}>
@@ -69,7 +72,7 @@ export default function About() {
         </div>
       </nav>
       <h1 style={{ color: "white" }}>
-        Halo {greeting} {localStorage.getItem("username")}
+        Halo {greeting} {username}
       </h1>
       <div className="container">
         <div className="map-container">
