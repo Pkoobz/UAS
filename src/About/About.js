@@ -106,9 +106,12 @@ function About() {
                   backgroundRepeat: "no-repeat",
                   backgroundPosition: "center",
                   backgroundSize: "cover"
-                }}
-              >
-                <div className="col-md-6 text-center mb-3 mb-md-0"></div>
+                }}>
+                <div className="col-md-6 text-center mb-3 mb-md-0">
+                <h5 class="fw-bold">Indonesia Travel Guide Map</h5>
+                  <p>Created by Group 9</p>
+                  <p>&copy; 2023</p>
+                </div>
                 <div className="col-md-6 d-flex justify-content-center">
                   <a href="https://www.umn.ac.id/">
                     <img src={LogoImage} className="img-fluid" alt="Logo" />
